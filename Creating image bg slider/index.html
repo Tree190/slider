@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="slider">
+        <div class="thumbnail active" data-text="church" data-color="#3b5073" onclick="showBigImage(this)">
+            <img src="images/church.jpg">
+        </div>
+        <div class="thumbnail" data-text="cinemas" data-color="#733b3b" onclick="showBigImage(this)">
+            <img src="images/abandoned movie cinemas.jpg">
+        </div>
+        <div class="thumbnail" data-text="theme park" data-color="#734b3b" onclick="showBigImage(this)">
+            <img src="images/famous-abandoned-theme-park.jpg">
+        </div>
+        <div class="thumbnail" data-text="train station" data-color="#5c2922" onclick="showBigImage(this)">
+            <img src="images/maxresdefault.jpg">
+        </div>
+        <div class="thumbnail" data-text="other church" data-color="#454141" onclick="showBigImage(this)">
+            <img src="images/RDR2_POI_01_Abandoned_Church_01.webp">
+        </div>
+    </div>
+
+    <h2 class="text">Church</h2>
+    
+    <div class="bigImage">
+        <img src="images/church.jpg" id="bigImage">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
